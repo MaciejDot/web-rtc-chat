@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/web-rtc-chat/static/js/main.e9c60a8b.js",
+    "index.html": "/web-rtc-chat/index.html",
+    "main.e9c60a8b.js.map": "/web-rtc-chat/static/js/main.e9c60a8b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e9c60a8b.js"
+  ]
+}
