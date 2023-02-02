@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import React, { useEffect, useState } from 'react'
 import { Typography, TextField, Button } from '@mui/material'
 import useMainPresenter from './useMainPresenter'
@@ -68,7 +69,11 @@ export default function Main() {
             />
             <Button
                 onClick={() =>
-                    connect(JSON.parse(ice).map((i) => new RTCIceCandidate(i)))
+                    connect(
+                        JSON.parse(ice).map(
+                            (i: RTCIceCandidateInit) => new RTCIceCandidate(i)
+                        )
+                    )
                 }
             >
                 submit ice
